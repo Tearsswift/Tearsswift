@@ -41,48 +41,48 @@ body {
     overflow-y: auto;
 }
 
-h1 {
+ h1 {
     margin: 48px 0 22px -5px;
     font-size: 2.0rem;
     font-weight: bold;
     line-height: 2.0rem;
 }
 
-h2 {
+ h2 {
     margin: 42px 0 18px -5px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.8rem;
 }
 
-h3 {
+ h3 {
     margin: 38px 0 15px -4px;
     font-size: 1.6rem;
     font-weight: bold;
     line-height: 1.7rem;
 }
 
-h4 {
+ h4 {
     margin: 32px 0 12px -4px;
     font-size: 1.45rem;
     font-weight: bold;
     line-height: 1.45rem;
 }
 
-h5 {
+ h5 {
     margin: 28px 0 8px -4px;
     font-size: 1.2rem;
     font-weight: bold;
     line-height: 1.2rem;
 }
 
-h6 {
+ h6 {
     margin: 22px 0 4px -4px;
     font-size: 1.1rem;
     line-height: 1.1rem;
 }
 
-p {
+ p {
     font-size: 1rem;
     line-height: 1.5rem;
 }
@@ -181,7 +181,7 @@ code {
     height: 0;
 }
 
-pre code {
+ pre code {
     padding: 0;
     color: #e8eaf6;
     background-color: #272822;
@@ -225,7 +225,7 @@ mark {
     padding: .2em;
 }
 
-.card {
+ .card {
     border-radius: 10px;
     box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
 }
@@ -338,7 +338,7 @@ header .side-nav .menu-list li {
     margin-left: -15px;
 }
 
-header .side-nav .menu-list a {
+ header .side-nav .menu-list a {
     height: 50px;
     line-height: 50px;
     color: #34495e !important;
@@ -587,7 +587,7 @@ header .go-back i {
     color: #eee;
 }
 
-.bg-cover .post-title {
+ .bg-cover .post-title {
     margin: 0 auto;
     font-size: 2.5rem;
     font-weight: 400;
@@ -2006,7 +2006,7 @@ footer .copy-right {
 }
 
 /* hide ... if we have text, which is less than or equal to max lines */
-.block-with-text:after {
+ .block-with-text:after {
     /* points in the end */
     content: '';
     /* absolute position */
@@ -2138,3 +2138,5 @@ footer .copy-right {
     padding: 0;
     margin: 0;
 }
+
+/* 增加每日一言模块 */ .poem-wrap { position: relative; width: 730px; max-width: 80%; border: 2px solid #797979; border-top: 0; text-align: center; margin: 80px auto; } .poem-left { left: 0; } .poem-border { position: absolute; height: 2px; width: 27%; background-color: #797979; } .poem-right { right: 0; } .poem-wrap h1 { position: relative; margin-top: -20px; display: inline-block; letter-spacing: 4px; color: #797979; } .poem-wrap p:nth-of-type(1) { font-size: 25px; text-align: center; margin: 0 auto; } .poem-wrap p { width: 70%; margin: auto; line-height: 30px; color: #797979; font-family: "Linux Biolinum", "Noto Serif SC", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif; } .poem-wrap p:nth-of-type(2) { font-size: 18px; margin: 15px auto; } .bozhushuo { text-align: center; font-size: 19px!important; margin: 0 0 12px!important; line-height: 1.9rem; font-family: "Linux Biolinum", "Noto Serif SC", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif; } .notice { margin: 30px auto; padding: 20px; border: 1px dashed #e6e6e6; color: #969696; position: relative; display: inline-block; width: 95%; background: #fbfbfb50; border-radius: 10px; font-size: 16px; } .notice-content { display: initial; vertical-align: middle; }

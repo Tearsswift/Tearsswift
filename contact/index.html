@@ -362,6 +362,8 @@
                 <div class="tag-title center-align">
                     <i class="fas fa-comments"></i>&nbsp;&nbsp;留言板
                 </div>
+                <!-- 加入网易云音乐热门评论，实时更新 --> <div class="poem-wrap"> <div class="poem-border poem-left"> </div> <div class="poem-border poem-right"> </div> <h1>热评</h1> <p id="poem">loading...</p> <p id="info">loading...</p> </div>
+            <script> $.get("https://v1.hitokoto.cn?c=d&c=h&c=j",function(datastatus){ if(status=='success'){ $('#poem').html(data.hitokoto) if(data.from_who!=null){ $('#info').html(data.from_who+" · "+《 "+data.from+" 》"); } else{ $('#info').html(" “ "+data.from+"” "); } } else{$('#poem').html("获取出错啦");}}); </script>
                 
             </div>
         </div>
@@ -381,7 +383,6 @@
             
 
             
-
         </div>
     </div>
 </main>
@@ -454,6 +455,9 @@
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">73</span>&nbsp;字
             
             
             
@@ -664,6 +668,11 @@ $(function () {
 
     <!--腾讯兔小巢-->
     
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
     
 
     
